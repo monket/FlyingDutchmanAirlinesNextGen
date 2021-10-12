@@ -1,27 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8C43D16-7CAE-41B2-ABDA-140C28ED6762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyingDutchmanAirlines", "src\FlyingDutchmanAirlines\FlyingDutchmanAirlines.csproj", "{FB5B2C02-D47E-4A85-9EFC-684747951F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyingDutchmanAirlines", "src\FlyingDutchmanAirlines\FlyingDutchmanAirlines.csproj", "{FB5B2C02-D47E-4A85-9EFC-684747951F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyingDutchmanAirlines_Tests", "test\FlyingDutchmanAirlines_Tests\FlyingDutchmanAirlines_Tests.csproj", "{60C3CAA4-D72A-4ABD-A0D5-6A8B65FDC233}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FB5B2C02-D47E-4A85-9EFC-684747951F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FB5B2C02-D47E-4A85-9EFC-684747951F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB5B2C02-D47E-4A85-9EFC-684747951F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB5B2C02-D47E-4A85-9EFC-684747951F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C3CAA4-D72A-4ABD-A0D5-6A8B65FDC233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C3CAA4-D72A-4ABD-A0D5-6A8B65FDC233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C3CAA4-D72A-4ABD-A0D5-6A8B65FDC233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C3CAA4-D72A-4ABD-A0D5-6A8B65FDC233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FB5B2C02-D47E-4A85-9EFC-684747951F6E} = {D8C43D16-7CAE-41B2-ABDA-140C28ED6762}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BABB2BC-9C68-4B97-AC38-722D16A15467}
 	EndGlobalSection
 EndGlobal
